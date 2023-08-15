@@ -79,3 +79,8 @@
             * Resource Owner Flow
       * 아니요
         * Client Credentials Flow
+
+## OAuth2LoginConfigurer 초기화 과정
+
+* OAuth2LoginAuthenticationFilter (/login/oauth2/code/{registrationId})
+  * AccessToken 교환 및 사용자 정보 엔드포인트 요청 필터
